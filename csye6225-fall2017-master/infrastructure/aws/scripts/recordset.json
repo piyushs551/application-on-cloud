@@ -1,0 +1,18 @@
+{
+  "Comment": "Add A type record set",
+  "Changes": [
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "ec2.csye6225-fall2017-joshisn.me.",
+        "Type": "A",
+        "TTL": 60,
+        "ResourceRecords": [
+          {
+            "Value": " 34.204.8.188 "
+          }
+        ]
+      }
+    }
+  ]
+}

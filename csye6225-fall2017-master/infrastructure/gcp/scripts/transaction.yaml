@@ -1,0 +1,35 @@
+---
+additions:
+- kind: dns#resourceRecordSet
+  name: csye6225-fall2017-neelkamalh.me.
+  rrdatas:
+  - ns-cloud-e1.googledomains.com. cloud-dns-hostmaster.google.com. 3 21600 3600 259200
+    300
+  ttl: 21600
+  type: SOA
+- kind: dns#resourceRecordSet
+  name: csye6225-fall2017-neelkamalh.me.
+  rrdatas:
+  - 35.196.145.76
+  ttl: 60
+  type: A
+- kind: dns#resourceRecordSet
+  name: csye6225-fall2017-keskarc.me.
+  rrdatas:
+  - 104.196.161.233
+  ttl: 60
+  type: A
+- kind: dns#resourceRecordSet
+  name: csye6225-fall2017-keskarc.me.
+  rrdatas:
+  - 35.196.145.76
+  ttl: 60
+  type: A
+deletions:
+- kind: dns#resourceRecordSet
+  name: csye6225-fall2017-neelkamalh.me.
+  rrdatas:
+  - ns-cloud-e1.googledomains.com. cloud-dns-hostmaster.google.com. 2 21600 3600 259200
+    300
+  ttl: 21600
+  type: SOA

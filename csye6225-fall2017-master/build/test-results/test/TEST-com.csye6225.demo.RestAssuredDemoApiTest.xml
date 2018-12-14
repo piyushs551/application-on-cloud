@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.csye6225.demo.RestAssuredDemoApiTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2017-11-27T21:46:10" hostname="harshal-VirtualBox" time="0.0">
+  <properties/>
+  <testcase name="testGetHomePage" classname="com.csye6225.demo.RestAssuredDemoApiTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
